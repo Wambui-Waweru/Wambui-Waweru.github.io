@@ -1792,3 +1792,38 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+
+/* Added code */
+
+.site-blocks-cover h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#work-section .site-section-heading{
+  padding-bottom: 100px;
+}
+
+#aboutblurb {
+  padding: 20px 0px;
+}
+
+#contactheader {
+  font-weight: bold;
+  color: yellow;
+}
+
+.col-lg-3 {
+  padding: 10px;
+}
+
+#colorlib{
+  color: transparent;
+}
+
+.learnmorebutton{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
