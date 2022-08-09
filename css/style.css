@@ -1557,11 +1557,16 @@ h1, h2, h3, h4, h5,
     display: inline-block; }
 
 .ft-feature-1 {
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  background-color: lightblue!important;
+ }
   .ft-feature-1 .ft-feature-1-content {
-    padding: 30px;
+    padding: 20px;
     position: relative;
-    z-index: 10; }
+    z-index: 10;
+    justify-content: start !important;
+    justify-items: stretch !important;
+   }
   .ft-feature-1 h2, .ft-feature-1 h3 {
     font-size: 20px;
     color: #fff; }
@@ -1806,7 +1811,10 @@ h1, h2, h3, h4, h5,
 }
 
 #aboutblurb {
-  padding: 20px 0px;
+  padding: 20px 0px !important;
+  background-color: whitesmoke !important;
+  padding: 10px !important;
+  margin: 0% !important;
 }
 
 #contactheader {
@@ -1814,13 +1822,23 @@ h1, h2, h3, h4, h5,
   color: yellow;
 }
 
+.contactaboutsection {
+  display: inline !important;
+}
+
 .col-lg-3 {
   padding: 10px;
+}
+
+#aboutdetails {
+  justify-content: start !important;
+  background-color:lightblue !important;
 }
 
 #colorlib{
   color: transparent;
 }
+
 
 .learnmorebutton{
   padding: 10px;
