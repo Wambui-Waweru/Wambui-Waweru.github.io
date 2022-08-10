@@ -50,7 +50,6 @@ jQuery(document).ready(function($) {
         $this.addClass('active');
       }
       e.preventDefault();  
-      
     });
 
 		$(window).resize(function() {
@@ -228,6 +227,38 @@ jQuery(document).ready(function($) {
     });
   };
   OnePageNavigation();
+
+	var openPage = function(endPoint) {
+		window.open(endPoint);
+	}
+
+	var addClickHandlers = function() {
+		const rhda = document.getElementById('rhda');
+		rhda.onclick = function(){
+			openPage(rhda.getAttribute('value'));
+		}
+		const prenda = document.getElementById('prenda');
+		prenda.onclick = function(){
+			openPage(prenda.getAttribute('value'));
+		}
+		const polls = document.getElementById('polls');
+		polls.onclick = function(){
+			openPage(polls.getAttribute('value'));
+		}
+		const everyday_ui = document.getElementById('everydayui');
+		everyday_ui.onclick = function(){
+			openPage(everyday_ui.getAttribute('value'));
+		}
+		const storyboarding = document.getElementById('storyboarding');
+		storyboarding.onclick = function(){
+			openPage(storyboarding.getAttribute('value'));
+		}
+		const nana = document.getElementById('nana');
+		nana.onclick = function(){
+			openPage(nana.getAttribute('value'));
+		}
+	}
+	addClickHandlers();
 
   var siteScroll = function() {
 
