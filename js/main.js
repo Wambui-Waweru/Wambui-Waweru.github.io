@@ -229,7 +229,7 @@ jQuery(document).ready(function($) {
   OnePageNavigation();
 
 	var openPage = function(endPoint) {
-		window.open(endPoint);
+		window.open(endPoint,"_self");
 	}
 
 	var addClickHandlers = function() {
