@@ -1856,6 +1856,19 @@ h1.project-title {
     .site-section-heading {
       font-size: 3rem; } }
 
+h2.project-title {
+  padding-top: 40px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 60px; 
+  font-family:'Times New Roman', Times, serif;
+  line-height: 1.2em;
+} @media (min-width: 768px) {
+    .site-section-heading {
+      font-size: 3rem; } }
+
 .learnmorebutton{
   padding: 10px;
   display: flex;
