@@ -233,7 +233,7 @@ jQuery(document).ready(function($) {
 	}
 
 	var addClickHandlers = function() {
-		const rhda = document.getElementById('rhda');
+		const rhda = document.getElementById('shell');
 		rhda.onclick = function(){
 			openPage(rhda.getAttribute('value'));
 		}
@@ -241,7 +241,7 @@ jQuery(document).ready(function($) {
 		prenda.onclick = function(){
 			openPage(prenda.getAttribute('value'));
 		}
-		const polls = document.getElementById('polls');
+		const polls = document.getElementById('malloc');
 		polls.onclick = function(){
 			openPage(polls.getAttribute('value'));
 		}
