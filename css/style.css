@@ -1869,6 +1869,12 @@ h2.project-title {
     .site-section-heading {
       font-size: 3rem; } }
 
+h2.chosen-startup {
+  color: #000;
+  background-color: #32dbc6;
+  line-height: 5rem;
+}
+
 .learnmorebutton{
   padding: 10px;
   display: flex;
